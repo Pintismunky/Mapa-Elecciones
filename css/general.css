@@ -1,0 +1,51 @@
+.chart text {
+  fill: black;
+  font-size: 13px;
+  font-family: 'Oxygen', serif;
+  text-anchor: end;
+}
+
+.chart .label {
+  fill: black;
+  font-size: 13px;
+  font-family: 'Oxygen', serif;
+  font-weight: bold;
+  text-anchor: middle;
+}
+.chart .label2 {
+  fill: black;
+  font-size: 13px;
+  font-family: 'Oxygen', serif;
+  text-anchor: middle;
+}
+.chart2 text {
+  fill: black;
+  font-size: 13px;
+  font-family: 'Oxygen', serif;
+  text-anchor: end;
+}
+
+.chart2 .label {
+  fill: black;
+  font-size: 13px;
+  font-family: 'Oxygen', serif;
+  font-weight: bold;
+  text-anchor: middle;
+}
+.chart2 .label2 {
+  fill: black;
+  font-size: 13px;
+  font-family: 'Oxygen', serif;
+  text-anchor: middle;
+}
+.bar:hover {
+  fill: #009688;
+
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}

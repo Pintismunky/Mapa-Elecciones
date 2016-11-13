@@ -1,0 +1,251 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+
+html{
+font-size:16px;
+}
+
+.provincias{
+	fill: #d5d1d1;
+  stroke:white;}
+
+.provincias:hover{
+	  cursor: pointer;
+		stroke-width:2;
+	}
+
+#contenedor{
+	width:100%;
+	height: auto;
+	max-width: 82.75rem;
+}
+
+.mapa{
+	display: block;
+	width: 100%;
+	max-width: 29.375rem;
+	float:left;
+	background-color: orange;
+}
+
+.datos{
+	clear: none;
+	color: #231f20;
+	width: 100%;
+	max-width: 53.37rem;
+	font-family:'Oxygen', sans-serif;
+	float:left;
+	background-color: #e2e2e2;
+}
+
+.grafico{
+	width: 30%;
+	max-height:309px;
+	max-width: 28.125rem;
+	background-color: pink;
+	float:left;
+}
+
+.general{
+	max-width:456px;
+	background-color: lime;
+	float:left;
+}
+
+#provincia{
+	float:left;
+	font-weight: bold;
+	font-size: 20px;
+	color:black;
+	margin: 0 0 0 0;
+}
+
+#volver{
+	float: right;
+	cursor: pointer;
+	font-size: 0.8125rem;
+	padding: 0.25rem;
+}
+
+#barra0{
+	color: #d5d1d1;
+	clear: both;
+}
+
+#textparticipacion{
+	color: #808080;
+	float:left;
+	clear: both;
+	font-size: 0.9375rem;
+}
+
+#participacion{
+		float:left;
+		margin-left: 1%;
+}
+
+#textescrutado{
+	color: #808080;
+		margin-left: 3%;
+		float:left;
+		font-size: 0.9375rem;
+}
+
+#escrutado{
+	  margin-left: 1%;
+		float:left;
+}
+
+#textvotos{
+	color: #808080;
+	margin-left: 3%;
+	float:left;
+	font-size: 0.9375rem;
+}
+
+#votostotales{
+	margin-left: 1%;
+		float:left;
+}
+
+#votosprov{
+	margin-left: 1%;
+		float:left;
+}
+
+#textescanos{
+	color: #808080;
+	margin-left: 3%;
+		float:left;
+		font-size: 0.9375rem;
+}
+
+#escanos0{
+	margin-left: 1%;
+		float:left;
+}
+
+.datosbarras{
+	clear: both;
+	float:right;
+}
+#partidodip{
+		float:left;
+		font-size: 0.8125rem;
+		margin-left: -123px;
+}
+
+#partidoporcen{
+		float:left;
+		font-size: 0.8125rem;
+		margin-left: -123px;
+}
+
+#partidovotos{
+		float:left;
+		font-size: 0.8125rem;
+		margin-left: -123px;
+}
+
+#escanos1{
+	clear: both;
+	float:left;
+font-size: 2.25rem;
+font-family: 'Oxygen', sans-serif;
+font-weight: bold;
+margin-top: -198px;
+margin-left: 29%;
+width: 90px;
+text-align: center;
+}
+
+#total{
+		clear: both;
+		float:left;
+		font-size: 0.9375rem;
+		color: #4E4E4E;
+		font-family:'Oxygen', sans-serif;
+		margin-top: -160px;
+    margin-left: 33%;
+}
+
+#anyo{
+		clear: both;
+		float:left;
+		font-size: 1.625rem;
+		font-family:'Oxygen', sans-serif;
+}
+
+@media screen and ( max-width: 1325px ) {
+
+  html{
+		font-size:14px;
+	}
+
+	.datosbarras{
+		display:none;
+	}
+	#textparticipacion{
+		clear: both;
+		margin-left: 3%;
+	}
+	#textescrutado{
+		clear:both;
+	}
+
+	#textvotos{
+		clear: both;
+	}
+	#textescanos{
+		clear: both;
+	}
+
+      .datos{
+				width: 70%;
+			}
+			.mapa {
+				width: 30%;
+			}
+			.chart {
+				display:none;
+			}
+			.chart2 {
+				display:none;
+			}
+			#pie-chart2{
+				display: none;
+			}
+			#anyo{display: none;}
+		}
+
+		@media screen and ( max-width: 500px ) {
+          html{
+						font-size: 12px;
+					}
+
+					.datosbarras{
+						display:none;
+					}
+					#pie-chart{
+					width: 100%;
+					}
+		      .datos{
+						width: 100%;
+					}
+					.mapa {
+						width: 100%;
+						max-width: 500px;
+					}
+					.chart {
+						display:none;
+					}
+					.chart2 {
+						display:none;
+					}
+					#pie-chart2{
+						display: none;
+					}
+					#anyo{display: none;}
+				}

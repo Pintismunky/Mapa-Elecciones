@@ -1,0 +1,65 @@
+
+#pie-chart {
+  font-family: 'Oxygen', serif;
+  text-shadow: none;
+  font-size: 120px;
+  float:left;
+  line-height: 50px;
+  width: 250px;
+  margin-left: -10%;
+}
+
+#cajarosco{
+  width: 7.5rem;
+}
+
+#pie-chart .total{
+  font-size: 1.125rem;
+  font-weight: bold;
+}
+#pie-chart .units{
+  fill: gray;
+  font-size: 0.75rem;
+  font-weight: bold;
+  padding-bottom: 0.3125rem;
+}
+#pie-chart .label{
+  fill: #CCC;
+  font-size: 5.625rem;
+  font-weight: bold;
+}
+#pie-chart .value{
+  font-size: 0.875rem;
+  font-weight: bold;
+}
+
+#slider label {
+    position: absolute;
+    width: 1.25rem;
+    margin-left: -1.5625rem;
+    text-align: center;
+    margin-top: -1.5625rem;
+    font-family: 'Oxygen', serif;
+}
+.toolTip {
+    position: absolute;
+    display: none;
+    background: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    border: 0 none;
+    border-radius: 0.5rem 0.5rem 0.5rem 0.5rem;
+    color: black;
+    font-size: 0.75rem;
+    font-family: 'Oxygen', serif;
+    color: white;
+    padding: 0.3125rem;
+    text-align: center;
+}
+#pie-chart2 {
+  font-size: 0.625rem;
+  font-family: 'Oxygen', serif;
+  text-shadow: none;
+  /*margin-left: 11.5625rem;*/
+  /*margin-top: -6.75rem;*/
+  float:left;
+}

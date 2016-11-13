@@ -1,0 +1,48 @@
+* {	padding: 0; margin: 0; vertical-align: top; }
+
+body {
+	font: 18px/1.5em Oxygen;
+}
+
+a {	color: #069; }
+a:hover { color: #28b; }
+
+
+#plot {
+	width: 740px;
+    margin-left:47px;
+	padding: 10px;
+	background: #fff;
+		height: 200;
+}
+
+
+.caja {
+	box-sizing: border-box;
+	width: 730px;
+	height: 330px;
+	padding: 20px 15px 15px 15px;
+	border: 1px solid #ddd;
+	background: #fff;
+	box-shadow: 0 3px 10px rgba(0,0,0,0.15);
+	-o-box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+	-ms-box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+	-moz-box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+	-webkit-box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+
+.caracteres {
+	width: 710px;
+	height: 280px;
+	font-size: 14px;
+	line-height: 1.2em;
+}
+
+
+
+
+
+
+
+
+

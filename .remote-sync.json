@@ -1,0 +1,12 @@
+{
+  "uploadOnSave": true,
+  "hostname": "pintismunky.com",
+  "port": "1987",
+  "target": "/var/www/pintismunky.com/mapa",
+  "ignore": [
+    ".git/**"
+  ],
+  "username": "ruben",
+  "transport": "scp",
+  "password": "milucete"
+}
